@@ -1,5 +1,5 @@
 @extends('layout')
-<title>Login - {{$general_settings['company_title']}}</title>
+<title>Login - {{isset($general_settings['company_title']) ? $general_settings['company_title'] : ''}}</title>
 @section('content')
 <!-- Content -->
 
